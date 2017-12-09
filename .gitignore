@@ -1,0 +1,9 @@
+
+*.dll
+obj/Debug/netcoreapp2.0/ProjectEuler.csproj.FileListAbsolute.txt
+obj/Debug/netcoreapp2.0/ProjectEuler.pdb
+*.pdb
+bin/Debug/netcoreapp2.0/ProjectEuler.runtimeconfig.dev.json
+bin/Debug/netcoreapp2.0/ProjectEuler.runtimeconfig.json
+bin/Debug/netcoreapp2.0/ProjectEuler.deps.json
+obj/Debug/netcoreapp2.0/ProjectEuler.csproj.CoreCompileInputs.cache
