@@ -669,11 +669,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/rooksoto/RiderProjects/ProjectEuler/ProjectEuler/ProjectEuler.csproj",
+      "projectUniqueName": "/Users/rooksoto/Documents/Projects/CSharp/ProjectEuler/ProjectEuler/ProjectEuler.csproj",
       "projectName": "ProjectEuler",
-      "projectPath": "/Users/rooksoto/RiderProjects/ProjectEuler/ProjectEuler/ProjectEuler.csproj",
+      "projectPath": "/Users/rooksoto/Documents/Projects/CSharp/ProjectEuler/ProjectEuler/ProjectEuler.csproj",
       "packagesPath": "/Users/rooksoto/.nuget/packages/",
-      "outputPath": "/Users/rooksoto/RiderProjects/ProjectEuler/ProjectEuler/obj/",
+      "outputPath": "/Users/rooksoto/Documents/Projects/CSharp/ProjectEuler/ProjectEuler/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/rooksoto/.config/NuGet/NuGet.Config"
