@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Numerics;
-using System.Reflection.PortableExecutable;
 
 namespace ProjectEuler.Problem8
 {
