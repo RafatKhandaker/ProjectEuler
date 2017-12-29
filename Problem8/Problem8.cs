@@ -52,14 +52,22 @@ namespace ProjectEuler.Problem8
                                  "71636269561882670428252483600823257530420752963450";
 
             var beginSubstring = 0;
-            long result = 0;
-            while (beginSubstring < input.Length - 12)
+            var result = 0;    // ^ keep convention .. so once var is assigned.. it becomes a "strut"  in C# .. unassigned values are identified prior. like long??
+            
+            long tempResult; // this value long because var will assign as (int) but this way is better, because a variable is created first and points to heap memory .. or else a new variable will be created for each loop
+            /* 
+                so in here 999 is the last digit,  999 - 13 = 986    
+                input.Length = 1000      so  1000 -14 should lead to position 986 as last digit.. you want to stop at 987 so 
+                -13 here           
+            */
+            while (beginSubstring < input.Length - 13)  //  -13 should not lead out of index if i am correct the Length should be 1000 here
             {
-                long tempResult = 1;
-                var evalString = input.Substring(beginSubstring, 13);
+                tempResult = 1;
+                var evalString = input.Substring(beginSubstring, (beginSubstring+13));  // in here your Substring end value should also increase by beginSubstring + 13
+                
                 foreach (var t in evalString)
                 {
-                    tempResult *= (long)char.GetNumericValue(t);
+                    tempResult *= (long)char.GetNumericValue(t); 
                 }
                 if (tempResult > result)
                 {
